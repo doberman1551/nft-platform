@@ -25,7 +25,8 @@ export async function getStaticProps({params}){
 const {items}=await client.getEntries({content_type:'project','fields.slug':params.slug})
 
 return{
-  props:{project:items[0]}
+  props:{project:items[0]},
+  revalidate:2,
 }
 }
 

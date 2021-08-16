@@ -10,7 +10,8 @@ const res=await client.getEntries({ content_type:'project'})
 return{
   props:{
     projects:res.items
-  }
+  },
+  revalidate:2,
 }
 }
 

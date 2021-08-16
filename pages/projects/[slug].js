@@ -18,7 +18,7 @@ export const getStaticPaths=async()=>{
 
   return {
     paths,
-    fallback: false
+    fallback: true
   }
 }
 export async function getStaticProps({params}){
@@ -31,6 +31,7 @@ return{
 }
 
 export default function ProjectDetails({project}) {
+  if (!project) return <div>Loading</div>
   const {featuredImage, title, details}=project.fields
   console.log(project)
   

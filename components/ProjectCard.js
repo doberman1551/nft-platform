@@ -23,7 +23,8 @@ export default function ProjectCard({project}) {
       </div>
       <style jsx>{`
         .card {
-          transform: rotateZ(-1deg);
+         // transform: rotateZ(-1deg);
+     
         }
         .content {
           background: #fff;
@@ -31,7 +32,7 @@ export default function ProjectCard({project}) {
           margin: 0;
           position: relative;
           top: -40px;
-          left: -10px;
+          //left: -10px;
         }
         .info {
           padding: 16px;

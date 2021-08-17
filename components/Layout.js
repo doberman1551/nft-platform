@@ -7,7 +7,7 @@ export default function Layout({ children }) {
         <Link href="/">
           <a>
             <h1>
-              <span>NFT Compass</span>
+             
               <span></span>
             </h1>
           

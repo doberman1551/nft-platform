@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default Skeleton = () => {
+const Skeleton = () => {
     return (
         <div className="skeleton">
          <div className="s-banner"></div>
@@ -34,3 +34,4 @@ export default Skeleton = () => {
     </div>
     )
 }
+export default Skeleton;

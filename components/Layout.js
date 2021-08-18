@@ -1,21 +1,16 @@
 import Link from 'next/link'
+import Navigation from './common/Navigation'
 
 export default function Layout({ children }) {
   return (
     <div className="layout">
-      <header>
-        <Link href="/">
-          <a>
-            <h1>
-             
-              <span></span>
-            </h1>
-          
-          </a>
-        </Link>
-      </header>
+      
+       <Navigation></Navigation>
+
+         
 
       <div className="page-content">
+       
         { children }
       </div>
 

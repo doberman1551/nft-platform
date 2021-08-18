@@ -23,6 +23,7 @@ export default function Projects({projects}) {
   return (
     <div>
       <Hero/>
+    
     <ProjectList>
 
       {projects.map(project=>(

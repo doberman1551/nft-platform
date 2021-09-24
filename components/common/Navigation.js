@@ -57,6 +57,6 @@ font-size: 2.5rem;
 font-weight: 800;
 transition: all .5s ease;
 &:hover{
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 `;

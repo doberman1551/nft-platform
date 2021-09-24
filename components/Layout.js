@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from './common/Footer'
 import Navigation from './common/Navigation'
 
 export default function Layout({ children }) {
@@ -14,9 +15,7 @@ export default function Layout({ children }) {
         { children }
       </div>
 
-      <footer>
-        <p>Copyright 2021 Just Add Marmite :)</p>
-      </footer>
+    <Footer/>
     </div>
   )
 }

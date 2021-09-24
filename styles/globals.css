@@ -27,7 +27,7 @@ header h1, header h2 {
 }
 header span {
   display: block;
-  line-height: 1em;
+  line-height: 0.8em;
 }
 header span:first-child {
   font-size: 1em;
@@ -41,13 +41,7 @@ header h2 {
   font-size: 1.2em;
   font-weight: 400;
 }
-footer {
-  background: #0F1320;
-  color: #bbb;
-  padding: 40px;
-  text-align: center;
-  margin-top: auto
-}
+
 .page-content {
   max-width: 1200px;
   margin: 20px auto 80px;

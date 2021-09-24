@@ -4,8 +4,10 @@ const Hero = () => {
     return (
         <div>
 
-           <h1 className="HeroTitle">NFT Compass: read short stories and tips from  sucessful NFT artists </h1> 
-            <p className="Subtitle">We interview not so much "famous" artists about their stories and how they created and sold their NFT successfuly. Have a similar story? <span className="colorLink">Lets talk!</span></p>
+           <h1 className="HeroTitle">Read short stories and tips from  sucessful NFT artists. </h1> 
+            <p className="Subtitle">We ask creators to share how they created and sold their NFT successfuly and to give their advice. Have a similar story? <span className="colorLink">Lets talk!</span></p> <br></br>
+            
+        
 
            <style jsx>{`
        .HeroTitle{

@@ -39,8 +39,8 @@ export default function ProjectDetails({project}) {
   return (
     <div>
       <div className="banner"> 
-       <Image src={'https:'+ featuredImage.fields.file.url} width={featuredImage.fields.file.details.image.width} height={featuredImage.fields.file.details.image.height}></Image> 
-     <h2>{title}</h2>
+       <Image src={'https:'+ featuredImage.fields.file.url} width={featuredImage.fields.file.details.image.width} height={featuredImage.fields.file.details.image.height} className="FeaturedImage" ></Image> 
+     <h1>{title}</h1>
     
       </div>
 
@@ -56,17 +56,26 @@ export default function ProjectDetails({project}) {
         h2,h3 {
           text-transform: uppercase;
         }
-        .banner h2 {
+      
+        .banner h1 {
           margin: 0;
-          background: #fff;
+          //background: #fff;
           display: inline-block;
-          padding: 20px;
+          padding: 24px;
           position: relative;
-          top: -60px;
-          left: -10px;
-          transform: rotateZ(-1deg);
-          box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+         // top: -60px;
+        
+         // transform: rotateZ(-1deg);
+          //box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
         }
+        .FeaturedImage{
+         margin:0 auto;
+         position:relative;
+          
+  
+
+        }
+        
         .info p {
           margin: 0;
         }
